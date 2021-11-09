@@ -46,6 +46,4 @@ export default function Square(props) {
     //     {symbol}
     // </div>);
 
-
-
 }

@@ -1,8 +1,6 @@
 const defaultCount = 0;
 
-export default function clickReducer (
-    count, action
-) {
+export default function clickReducer (count, action) {
     if (count === undefined) {
         return defaultCount;
     }
