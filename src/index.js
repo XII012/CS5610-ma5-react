@@ -10,11 +10,12 @@ import reducers from './reducers/reducers';
 const store = createStore(reducers);
 
 ReactDOM.render(
-  // <Provider store = {store}>
-  //   <Board />
-  // </Provider>,
-  <Board/>,
+  <Provider store = {store}>
+    <Board />
+  </Provider>,
+  // <Board/>,
   document.getElementById('root')
 );
+
 
 

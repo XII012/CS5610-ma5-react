@@ -7,7 +7,6 @@ export default function gameReducer (state, action) {
         
     if (state === undefined) {
         return defaultState;
-
     }
 
     if (action.type === "boardClick") {
