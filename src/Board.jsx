@@ -24,8 +24,6 @@ export default function Board() {
         }
     }
 
-
-
     console.dir(boardComponent);
     return (
         <div>
